@@ -1,0 +1,16 @@
+[project]
+name = "hw6"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "dbos>=1.14.0",
+    "fastapi>=0.128.8",
+    "langchain-google-genai>=2.1.12",
+    "langgraph>=0.6.11",
+    "langgraph-checkpoint-postgres>=2.0.25",
+    "langgraph-checkpoint-sqlite>=2.0.11",
+    "langsmith>=0.4.37",
+    "psycopg-pool>=3.2.8",
+    "sendgrid>=6.12.5",
+    "uvicorn>=0.39.0",
+]
